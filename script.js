@@ -1,4 +1,5 @@
 let links = document.querySelectorAll('.nav-link')
+let linksmobile = document.querySelectorAll('#nav-link')
 let sections = document.querySelectorAll('.resume-section')
 
 
@@ -15,6 +16,13 @@ if(top >= offset && top < offset + heigthSection) {
         link.classList.remove('actived');
 
         document.querySelector(`.nav-link[href*='${idSection}']`).classList.add('actived');
+        
+    })
+    linksmobile.forEach(link => {
+        link.classList.remove('actived');
+
+        document.querySelector(`#nav-link[href*='${idSection}']`).classList.add('actived');
+        
     })
 }
 })
