@@ -372,9 +372,11 @@ h4{
         margin-top: 20px;
     }
 
-    #tp{
+    #tpm{
         width: 100%;
         text-align: right;
+        font-size: 17px;
+        
     }
     header{
         background-color: #1fa87b;
@@ -403,12 +405,14 @@ h4{
     .mobile-menu ul{
         margin-bottom: 20px;
     }
-   
-    @keyframes animacao {
-        from{height:0;}
-        top{height: auto;}
-        
+
+    .ll{
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
+   
     .titulocelular{
         font-size: 20px;
         font-family:system-ui, sans-serif ;
@@ -453,7 +457,12 @@ font-weight: 400;
    .amy{
 font-size: 32px;
    }
-
+   .ll{
+    font-size: 15px;
+}
+#tpm{
+    font-size: 14px; 
+}
    .obj{
     font-size: 22px ;
    }
