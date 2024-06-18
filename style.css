@@ -32,7 +32,7 @@ aside{
 .barrnav{
     position: fixed;
     display: flex;
-    z-index:1;
+    z-index:2;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -286,6 +286,9 @@ h4{
 }
 
 @media screen {@media(max-width: 1024px){
+    body{
+      background-color: #f7f7f7;
+    }
 
     aside{
         display:none;
@@ -298,7 +301,7 @@ h4{
     }
     
        .amy{
-        font-size: 50px;
+        font-size: 45px;
        }
        .obj{
         font-size: 28px ;
@@ -378,29 +381,30 @@ h4{
     }
     header{
         background-color: #1fa87b;
-        height: 7vh;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
+        align-items:center;
         position: fixed;
         width: 100%;
     }
     header nav{
         display: flex;
+        height: 7vh;
         align-items: center;
         justify-content: space-between;
         width: 100%;
-        padding: 10px 20px 0px 20px;
+        padding: 0px 20px 0px 20px;
+        
 
     }
     .mobile-menu{
+        display: flex;
         background-color: #1fa87b;
-        width: 100%;
         display: none;
         animation-duration: 1s;
-        
-
+    }
+    .mobile-menu ul{
+        margin-bottom: 20px;
     }
    
     @keyframes animacao {
@@ -409,7 +413,7 @@ h4{
         
     }
     .titulocelular{
-        font-size: 25px;
+        font-size: 20px;
         font-family:system-ui, sans-serif ;
 color: #e6ffff;
 font-weight: 400;
@@ -421,17 +425,55 @@ font-weight: 400;
     }
     .menu_open{
         text-align: center;
+        width: 30px;
+        height: 30px;
     
     }
-    .bt-celular svg{
-        align-items: center;
-        fill: #e6ffff ;
-    }
+
     .open{
         display: block;
         transition: all .3s ease;
     }
 
+    .titulo{
+        margin-top:50px;
+    }
+  .list-item svg{
+    width: 65px;
+    height: 65px;
+  }
 }
 
+}
+
+@media screen {@media(max-width:396px){
+   .amy{
+font-size: 32px;
+   }
+
+   .obj{
+    font-size: 22px ;
+   }
+   .inf, .end, .gmail{
+    font-size: 14px;
+   }
+.titulocelular{
+    font-size: 16px;
+}
+   .detalhando{
+    font-size: 18px;
+   }
+   .menu_open{
+    text-align: center;
+    width: 25px;
+    height: 25px;
+   }
+    .nav-link-mobile{
+font-size: 12px;
+    }
+    .list-item svg{
+        width: 50px;
+        height: 50px;
+      }
+}
 }

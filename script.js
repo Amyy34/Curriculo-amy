@@ -58,26 +58,10 @@ window.scrollTo({
 })
      }
 
-     function scrollSectionmobile(event) {
-        event.preventDefault();
-        
-        const largura = window.screen.width;
-        const href = event.currentTarget.getAttribute('href');
-        const section = document.querySelector(href);
-        let topSection = section.offsetTop - 75.6;
-        
-        window.scrollTo({
-            top: topSection,
-            behavior: 'smooth'
-        })
-             }
-
 links.forEach(link => {
     link.addEventListener('click', scrollSection)
 })
-    linksMobile.forEach(link => {
-        link.addEventListener('click', scrollSectionmobile)
-})
+
 
 function menuShow(){
     let mobileMenu = document.querySelector('.mobile-menu');
