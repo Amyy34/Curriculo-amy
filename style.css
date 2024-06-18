@@ -1,13 +1,13 @@
-*{
-    margin: 0;
+*{  
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
     
 }
 
 a{
     text-decoration: none;
-}
+} 
 
 .container{
     display: flex;
@@ -437,8 +437,8 @@ font-weight: 400;
     #skill{
         margin-top: 70px;
     }
-    #hbgit{
-        margin-bottom: 120px;
+    .container{
+        padding-bottom: 120px;
     }
   .list-item svg{
     width: 65px;
