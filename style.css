@@ -191,9 +191,9 @@ color: #e6ffff;
 
 .imgamy{
     border-radius: 50%;
-    width: 150px ;
+    width: 210px ;
     object-fit: cover;
-    height:150px ;
+    height:210px ;
     border: solid 6px #1ab692;
 }
 .hr{
