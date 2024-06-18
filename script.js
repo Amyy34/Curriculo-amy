@@ -20,30 +20,6 @@ if(top >= offset && top < offset + heigthSection) {
 })
 
 })
-
-
-let linksMobile = document.querySelectorAll('.nav-link-mobile')
-
-
-window.addEventListener('scroll', () => {
-sections.forEach(section => {
-
-let top = window.scrollY;
-let offset = section.offsetTop;
-let heigthSection = section.offsetHeight;
-let idSection = section.getAttribute('id')
-
-if(top >= offset && top < offset + heigthSection) {
-    linksMobile.forEach(link => {
-        link.classList.remove('actived');
-
-        document.querySelector(`.nav-link-mobile[href*='${idSection}']`).classList.add('actived');
-    })
-}
-})
-
-})
-
 function scrollSection(event) {
 event.preventDefault();
 
