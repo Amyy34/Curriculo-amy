@@ -298,7 +298,7 @@ h4{
     
        .amy{
         font-size: 45px;
-        margin-top: 25px;
+        margin-top: 40px;
        }
        .obj{
         font-size: 28px ;
@@ -383,6 +383,7 @@ h4{
         align-items:center;
         position: fixed;
         width: 100%;
+       
     }
     header nav{
         display: flex;
@@ -392,7 +393,6 @@ h4{
         width: 100%;
         padding: 0px 20px 0px 20px;
         
-
     }
     .mobile-menu{
         display: flex;
@@ -439,7 +439,7 @@ font-weight: 400;
         margin-top: 80px;
     }
     .container{
-        padding-bottom: 120px;
+        padding-bottom: 125px;
     }
   .list-item svg{
     width: 65px;
