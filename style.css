@@ -438,9 +438,6 @@ font-weight: 400;
         margin-top: 70px;
     }
     #habilidades{
-        display: flex;
-        justify-content: center;
-        align-items: center;
         margin-bottom: 120px;
     }
   .list-item svg{
