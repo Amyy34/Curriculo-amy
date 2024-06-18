@@ -432,7 +432,16 @@ font-weight: 400;
     }
 
     .titulo{
-        margin-top:50px;
+        margin-top:40px;
+    }
+    #skill{
+        margin-top: 70px;
+    }
+    #habilidades{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 120px;
     }
   .list-item svg{
     width: 65px;
