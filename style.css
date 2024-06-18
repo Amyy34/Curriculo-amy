@@ -451,6 +451,7 @@ font-weight: 400;
 @media screen {@media(max-width:396px){
    .amy{
 font-size: 32px;
+margin-top: 25px;
    }
 
    .obj{
